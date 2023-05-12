@@ -1,18 +1,15 @@
-import { useState } from "react";
+import React from "react";
 import Header from "./components/Header";
+import Intro from "./components/Intro";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
-      <h1>Carlos Madrid</h1>
-      <div className="card">
-        <Content />
-      </div>
+      <Intro />
+      <Content />
       <Footer />
     </>
   );
