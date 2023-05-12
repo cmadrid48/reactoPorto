@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Portfolio from "./components/Portfolio";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Intro />
       <Content />
+      <Portfolio />
       <Footer />
     </>
   );
